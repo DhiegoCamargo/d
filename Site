@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diego Ramos Camargo - Professor de História</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 0.5rem;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1rem;
+            padding: 0.5rem 1rem;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1rem;
+        }
+        .about, .content, .contact {
+            background-color: #fff;
+            margin: 1rem 0;
+            padding: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .content h2 {
+            color: #333;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Diego Ramos Camargo</h1>
+        <p>Professor de História</p>
+    </header>
+    <nav>
+        <a href="#about">Sobre Mim</a>
+        <a href="#content">Conteúdos</a>
+        <a href="#contact">Contato</a>
+    </nav>
+    <div class="container">
+        <section id="about" class="about">
+            <h2>Sobre Mim</h2>
+            <p>Me chamo Diego Ramos Camargo, sou professor de história com mais de 10 anos de experiência, atuando na rede estadual, municipal e privada. Sou criador de conteúdos de história, como textos para estudos, mapas mentais, projetos educacionais, atividades, avaliações com perguntas selecionadas para concursos públicos e federais.</p>
+        </section>
+        <section id="content" class="content">
+            <h2>Conteúdos de História</h2>
+            <p>Aqui você encontrará diversos materiais de apoio, como textos, dicas de vídeos e filmes, e atividades sobre conteúdos de história.</p>
+            <!-- Exemplos de conteúdos -->
+            <h3>Textos para Estudo</h3>
+            <ul>
+                <li><a href="#">Texto 1</a></li>
+                <li><a href="#">Texto 2</a></li>
+                <li><a href="#">Texto 3</a></li>
+            </ul>
+            <h3>Dicas de Vídeos e Filmes</h3>
+            <ul>
+                <li><a href="#">Vídeo 1</a></li>
+                <li><a href="#">Vídeo 2</a></li>
+                <li><a href="#">Vídeo 3</a></li>
+            </ul>
+            <h3>Atividades</h3>
+            <ul>
+                <li><a href="#">Atividade 1</a></li>
+                <li><a href="#">Atividade 2</a></li>
+                <li><a href="#">Atividade 3</a></li>
+            </ul>
+        </section>
+        <section id="contact" class="contact">
+            <h2>Contato</h2>
+            <p>Entre em contato através das redes sociais ou envie um email para: diego.ramos.camargo@email.com</p>
+            <p>
+                <a href="https://www.facebook.com/diego.ramos.camargo">Facebook</a> | 
+                <a href="https://www.twitter.com/diego.ramos.camargo">Twitter</a> | 
+                <a href="https://www.linkedin.com/in/diego-ramos-camargo">LinkedIn</a>
+            </p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Diego Ramos Camargo. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
